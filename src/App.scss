@@ -1,0 +1,31 @@
+html,
+body {
+    height: 100%;
+    background-color: #e3e3e3;
+}
+
+input {
+    font-size: 16px;
+    font-size: #{"max(16px, 1em)"};
+    font-family: inherit;
+    padding: 0.25em 0.5em;
+    background-color: #fff;
+    border: 1px solid var(--input-border);
+    border-radius: 4px;
+    min-height: 35px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.main-Wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.header {
+    height: 45px;
+}
+
+.content {
+    height: calc(100vh - 45px);
+}
